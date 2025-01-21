@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "funscholarcards",
+  "info": {
+    "singularName": "funscholarcard",
+    "pluralName": "funscholarcards",
+    "displayName": "Funscholarcard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

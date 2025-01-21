@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "course_cards",
   "info": {
-    "singularName": "product",
-    "pluralName": "products",
-    "displayName": "product"
+    "singularName": "course-card",
+    "pluralName": "course-cards",
+    "displayName": "Course Card"
   },
   "options": {
     "draftAndPublish": true
@@ -14,9 +14,15 @@
     "title": {
       "type": "string"
     },
-    "image": {
+    "description": {
+      "type": "text"
+    },
+    "logo": {
       "allowedTypes": [
-        "images"
+        "images",
+        "files",
+        "videos",
+        "audios"
       ],
       "type": "media",
       "multiple": false

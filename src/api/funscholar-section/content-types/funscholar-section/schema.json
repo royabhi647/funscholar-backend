@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "funscholar_sections",
+  "info": {
+    "singularName": "funscholar-section",
+    "pluralName": "funscholar-sections",
+    "displayName": "Funscholar-section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
